@@ -1,0 +1,18 @@
+.banner{
+background-image: url(../../img/fondoVerdejpg.jpg);
+ width: auto;
+ height: 400px;;
+    
+}
+
+.foto-perfil{
+    
+    position: absolute;
+    left: 50px; 
+    bottom: 0px;
+    top: 300px;
+
+}/*corregir la alineacion de los botones*/
+#boton, #estudios{
+    display:inline;
+}
