@@ -13,6 +13,7 @@ import { SoftSkillComponent } from './componentes/soft-skill/soft-skill.componen
 
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { CirculosComponent } from './componentes/circulos/circulos.component';
+import { HardSkillComponent } from './componentes/hard-skill/hard-skill.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { CirculosComponent } from './componentes/circulos/circulos.component';
     SoftSkillComponent,
 
     CirculosComponent,
+      HardSkillComponent,
 
   ],
   imports: [
