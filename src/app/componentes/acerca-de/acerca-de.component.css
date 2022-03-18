@@ -1,5 +1,5 @@
 .banner{
-background-image: url(../../img/fondoVerdejpg.jpg);
+background-image: url(../../../assets/img/fondoVerdejpg.jpg);
  width: auto;
  height: 400px;;
     
@@ -15,4 +15,10 @@ background-image: url(../../img/fondoVerdejpg.jpg);
 }/*corregir la alineacion de los botones*/
 #boton, #estudios{
     display:inline;
+
 }
+.nombre{
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+

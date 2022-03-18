@@ -1,159 +1,81 @@
 
-<div class="card">
-    <h5 class="card-header">hard skill</h5>
-    <div class="card-body">
-      <h5 class="card-title"> Lenguajes, y frameworks utilizados</h5>
-      <p class="card-text">Del lado del front end: Javascript, HTML,CSS, Bootstrap, Angular.</p>
-      <div class="row" >
-          <div class="col lg-5 ">
-        <circle-progress
-      [percent]="85"
-      [radius]="100"
-      [imageSrc]="'src/app/img/html.png'"
-      [showImage]="true"
-      [imageHeight]="50"
-      [imageWidth]="50"
-      [showUnits]="false"
-      [outerStrokeWidth]="16"
-      [innerStrokeWidth]="8"
-      [outerStrokeColor]="'#78C000'"
-      [innerStrokeColor]="'#C7E596'"
-      [animation]="true"
-      [animationDuration]="300"
-    ></circle-progress>
-</div>  
-<div class="col lg-5">
-    <circle-progress
-  [percent]="85"
-  [radius]="100"
-  [imageSrc]="'src\app\img\css.png'"
-  [showImage]="true"
-  [outerStrokeWidth]="16"
-  [innerStrokeWidth]="8"
-  [outerStrokeColor]="'#78C000'"
-  [innerStrokeColor]="'#C7E596'"
-  [animation]="true"
-  [animationDuration]="300"
-></circle-progress>
-</div>
-<div class="col lg-5">
-    <circle-progress
-  [percent]="85"
-  [imageSrc]="'src\app\img\js.png'"
-  [showImage]="true"
-  [radius]="100"
-  [outerStrokeWidth]="16"
-  [innerStrokeWidth]="8"
-  [outerStrokeColor]="'#78C000'"
-  [innerStrokeColor]="'#C7E596'"
-  [animation]="true"
-  [animationDuration]="300"
-></circle-progress>
-</div>
-<div class="col lg-5">
-    <circle-progress
-  [percent]="85"
-  [imageSrc]="'src\app\img\angular.png'"
-  [showImage]="true"
-  [radius]="100"
-  [outerStrokeWidth]="16"
-  [innerStrokeWidth]="8"
-  [outerStrokeColor]="'#78C000'"
-  [innerStrokeColor]="'#C7E596'"
-  [animation]="true"
-  [animationDuration]="300"
-></circle-progress>
-</div>
-<div class="col lg-5">
-    <circle-progress
-  [percent]="85"
-  [imageSrc]="'src\app\img\bootstrap.png'"
-  [showImage]="true"
-  [radius]="100"
-  [outerStrokeWidth]="16"
-  [innerStrokeWidth]="8"
-  [outerStrokeColor]="'#78C000'"
-  [innerStrokeColor]="'#C7E596'"
-  [animation]="true"
-  [animationDuration]="300"
-></circle-progress>
-</div>
-<div>
-  <button type="button" class="btn btn-primary  bi bi-pencil-square"> </button>
-  <button type="button" class="btn btn-dark bi bi-x-square"> </button>
-</div>
-    </div>
-    <div>
-      
-      <p class="card-text">Del lado del Back-End: Java, SQL, Mysql, Springboot</p>
-      <div class="row">
 
-
-        <div class="col ">
-          <circle-progress
-        [percent]="60"
-        [imageSrc]="'src\app\img\java.png'"
-        [showImage]="true"
-        [radius]="100"
-        [outerStrokeWidth]="16"
-        [innerStrokeWidth]="8"
-        [outerStrokeColor]="'#78C000'"
-        [innerStrokeColor]="'#C7E596'"
-        [animation]="true"
-        [animationDuration]="300"
-      ></circle-progress>
-      </div>
-      <div class="col ">
-        <circle-progress
-      [percent]="60"
-      [imageSrc]="'src\app\img\sql.png'"
-      [showImage]="true"
-      [radius]="100"
-      [outerStrokeWidth]="16"
-      [innerStrokeWidth]="8"
-      [outerStrokeColor]="'#78C000'"
-      [innerStrokeColor]="'#C7E596'"
-      [animation]="true"
-      [animationDuration]="300"
-    ></circle-progress>
-    </div>
-    <div class="col ">
-      <circle-progress
-    [percent]="85"
-    [imageSrc]="'src\app\img\pefil.jpeg'"
-    [showImage]="true"
-    [radius]="100"
-    [outerStrokeWidth]="16"
-    [innerStrokeWidth]="8"
-    [outerStrokeColor]="'#78C000'"
-    [innerStrokeColor]="'#C7E596'"
-    [animation]="true"
-    [animationDuration]="300"
-  ></circle-progress>
-  </div>
-  <div class="col ">
+<div class="row">
+  <div class="col">
     <circle-progress
   [percent]="85"
-  [imageSrc]="'src\app\img\html.png'"
+  [radius]="60"
+  [imageSrc]="'../../../assets/img/html.png'"
   [showImage]="true"
-  [radius]="100"
-  [outerStrokeWidth]="16"
-  [innerStrokeWidth]="8"
-  [outerStrokeColor]="'#78C000'"
+  [imageWidth]=100
+  [imageHeight]=100
+  [outerStrokeWidth]="8"
+  [innerStrokeWidth]="2"
+  [outerStrokeColor]="'#D46304'"
   [innerStrokeColor]="'#C7E596'"
   [animation]="true"
   [animationDuration]="300"
 ></circle-progress>
 </div>
-<div class="col ">
+<div class="col">
   <circle-progress
 [percent]="85"
-[imageSrc]="'src\app\img\html.png'"
+[radius]="60"
+[imageSrc]="'../../../assets/img/css.png'"
 [showImage]="true"
-[radius]="100"
-[outerStrokeWidth]="16"
-[innerStrokeWidth]="8"
-[outerStrokeColor]="'#78C000'"
+[imageWidth]=100
+[imageHeight]=100
+[outerStrokeWidth]="8"
+[innerStrokeWidth]="2"
+[outerStrokeColor]="'#044DD4'"
+[innerStrokeColor]="'#C7E596'"
+[animation]="true"
+[animationDuration]="300"
+></circle-progress>
+</div>
+<div class="col">
+  <circle-progress
+[percent]="85"
+[radius]="60"
+[imageSrc]="'../../../assets/img/js.png'"
+[showImage]="true"
+[imageWidth]=70
+[imageHeight]=90
+[outerStrokeWidth]="8"
+[innerStrokeWidth]="2"
+[outerStrokeColor]="'#F0F800'"
+[innerStrokeColor]="'#C7E596'"
+[animation]="true"
+[animationDuration]="300"
+></circle-progress>
+</div>
+<div class="col">
+  <circle-progress
+[percent]="85"
+[radius]="60"
+[imageSrc]="'../../../assets/img/angular.png'"
+[showImage]="true"
+[imageWidth]=200
+[imageHeight]=150
+[outerStrokeWidth]="8"
+[innerStrokeWidth]="2"
+[outerStrokeColor]="'red'"
+[innerStrokeColor]="'#C7E596'"
+[animation]="true"
+[animationDuration]="300"
+></circle-progress>
+</div>
+<div class="col">
+  <circle-progress
+[percent]="85"
+[radius]="60"
+[imageSrc]="'../../../assets/img/bootstrap.png'"
+[showImage]="true"
+[imageWidth]=100
+[imageHeight]=100
+[outerStrokeWidth]="8"
+[innerStrokeWidth]="2"
+[outerStrokeColor]="'#6E0EC3'"
 [innerStrokeColor]="'#C7E596'"
 [animation]="true"
 [animationDuration]="300"
@@ -164,3 +86,4 @@
       <button type="button" class="btn btn-dark bi bi-x-square"> </button>
     </div>
   </div>
+
