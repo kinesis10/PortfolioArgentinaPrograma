@@ -11,5 +11,7 @@ export class ProyectosComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  agregarTexto(){
+    console.log("click en boton llama a esta funcion agregarTexto")
+  }
 }

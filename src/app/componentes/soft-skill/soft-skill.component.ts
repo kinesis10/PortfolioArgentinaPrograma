@@ -11,5 +11,8 @@ export class SoftSkillComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  agregarTexto(){
+    console.log("click en boton llama a esta funcion agregarTexto")
+  }
 
 }
