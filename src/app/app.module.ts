@@ -14,6 +14,7 @@ import { CirculosComponent } from './componentes/circulos/circulos.component';
 import { HardSkillComponent } from './componentes/hard-skill/hard-skill.component';
 import { Circulos2Component } from './componentes/circulos2/circulos2.component';
 import { HerramientasComponent } from './componentes/herramientas/herramientas.component';
+import { BotonAgregarComponent } from './componentes/boton-agregar/boton-agregar.component';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { HerramientasComponent } from './componentes/herramientas/herramientas.c
       HardSkillComponent,
       Circulos2Component,
       HerramientasComponent,
+      BotonAgregarComponent,
 
   ],
   imports: [
