@@ -15,8 +15,13 @@ background-image: url(../../../assets/img/fondoVerdejpg.jpg);
 }/*corregir la alineacion de los botones*/
 #boton, #estudios{
     display:inline;
+    
+}
+.btn-right{
+display:flex;
 
 }
+
 .nombre{
   margin-bottom: 30px;
   margin-top: 50px;
