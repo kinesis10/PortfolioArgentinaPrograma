@@ -1,10 +1,14 @@
 <div class="card">
     <h5 class="card-header">Soft skill</h5>
     <div class="card-body">
-      <h5 class="card-title">Lista o descripcion de habilidaddes blandas</h5>
-      <p class="card-text">contiene las habilidades blandas.</p>
+      <ul>
+      <li *ngFor=" let soft of softs"><h5 class="card-title">{{ soft.nombre }}</h5>
+      <p class="card-text">{{ soft.texto }}</p></li>
+      </ul>
       <app-boton-agregar text=""(btnClick)="agregarTexto()"></app-boton-agregar>
       
  
     </div>
 </div>
+
+
