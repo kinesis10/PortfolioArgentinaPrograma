@@ -1,8 +1,8 @@
 .banner{
 background-image: url(../../../assets/img/fondoVerdejpg.jpg);
  width: auto;
- height: 400px;;
-    
+ height: 400px;
+
 }
 
 .foto-perfil{
@@ -12,15 +12,20 @@ background-image: url(../../../assets/img/fondoVerdejpg.jpg);
     bottom: 0px;
     top: 300px;
 
-}/*corregir la alineacion de los botones*/
-#boton, #estudios{
-    display:inline;
+}
+.row{
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+/*corregir la alineacion de los botones
+#botonAgregar, #estudios{
+    display:inline-block;
     
 }
-.btn-right{
+/*.btn-right{
 display:flex;
 
-}
+}*/
 
 .nombre{
   margin-bottom: 30px;

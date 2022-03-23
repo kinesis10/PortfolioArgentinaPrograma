@@ -9,25 +9,30 @@
              <button type="button" class="btn btn-light bi bi-pencil-square"></button>
             </div>
         </div>
-    
-    <div class_="nombre" >
+      <div class="row">
+        
+        <div class= col-6>
         <h3>Chesini Pablo Eugenio Sebastian.</h3>
-        <div class="mt-4">
+        
             
             <button type="button" class="btn btn-outline-primary">Tengo interes en</button>
             <button type="button" class="btn btn-outline-secondary">Añadir selección</button>
             <button type="button" class="btn btn-outline-secondary">Más</button>
          </div> 
-    </div>
+       </div>
+  
 
 
     <div class="card" >
            
-        <h3 class="card-header">Acerca De Mi.</h3>
-        <div>
+        <h5 class="card-header">Acerca De Mi.</h5>
+        <div class="card-body">
         <p class="card-text" id="estudios">Aca van cosas... etc etc autodidacta en programacion .</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
       <!--- <button type="button" id="boton" class="btn btn-light bi bi-pencil-square btn-right"></button>-->
-        <app-boton-agregar text=""(btnClick)="agregarTexto()"></app-boton-agregar>
+        <app-boton-agregar id=botonAgregar text=""(btnClick)="agregarTexto()"></app-boton-agregar>
+          </div>
         </div>
     </div>
 </section>
+

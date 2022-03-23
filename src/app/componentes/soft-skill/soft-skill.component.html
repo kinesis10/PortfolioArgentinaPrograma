@@ -5,6 +5,7 @@
       <li *ngFor=" let soft of softs"><h5 class="card-title">{{ soft.nombre }}</h5>
       <p class="card-text">{{ soft.texto }}</p></li>
       </ul>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
       <app-boton-agregar text=""(btnClick)="agregarTexto()"></app-boton-agregar>
       
  

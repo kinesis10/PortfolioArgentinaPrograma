@@ -9,7 +9,7 @@ import { SoftBd } from 'src/app/bbdd/softBd';
   styleUrls: ['./soft-skill.component.css']
 })
 export class SoftSkillComponent implements OnInit {
-  softs: SoftBd []= SOFT
+  softs: SoftBd []= SOFT;
 @Input() sotf: SoftBd = SOFT[0]; 
   constructor() { }
 

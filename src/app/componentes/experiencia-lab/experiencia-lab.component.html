@@ -1,12 +1,15 @@
-
+<section>
       <div class="card">
         <h5 class="card-header">Experiencia Laboral</h5>
         <div class="card-body">
-          <h5 class="card-title">Federacion Patronal Seguros S.A </h5>
+          <h5 class="card-title" id="titulo">Federacion Patronal Seguros S.A </h5>
          
           <p class="card-text">Desempeñe tareas de auditoria de siniestros 2 años de manera remota,actualmente realizado tareas de fisioterapeuta.2013-actualidad.</p>
-          <app-boton-agregar text=""(btnClick)="agregarTexto()"></app-boton-agregar>
-          <button type="button" class="btn btn-dark bi bi-x-square btn-right"> </button>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <app-boton-agregar id="botonAgregar" class="" text=""(btnClick)="agregarTexto()"></app-boton-agregar>
+            <button id="botonEliminar" type="button" class="btn btn-dark bi bi-x-square btn-right"> </button>
+          </div>
+          
         </div>
     </div>
-    
+  </section>
