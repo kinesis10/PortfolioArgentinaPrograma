@@ -1,2 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+
+
+header{
+    background-color: #bdb76b;
+}
+
+body{
+    background-color: #bdb76b;
+}
+.card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*
+
+--.btn-right{
+display:inline-block;
+
+} */
+
 

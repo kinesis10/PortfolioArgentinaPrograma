@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { PROYECTOS } from 'src/app/bbdd/proyectos';// importo el arreglo
 import { Proyecto } from 'src/app/bbdd/proyecto';// importo la interface
+import { BotonAgregarComponent } from '../boton-agregar/boton-agregar.component';
 @Component({
   selector: 'app-proyectos',
   templateUrl: './proyectos.component.html',
@@ -8,6 +9,7 @@ import { Proyecto } from 'src/app/bbdd/proyecto';// importo la interface
 })
 export class ProyectosComponent implements OnInit {
  proyectos: Proyecto []= PROYECTOS;          // declaro el arreglo de tipo objeto
+ botonAgregar: string="";
 @Input() proyecto: Proyecto = PROYECTOS [0]; // importo la variable que contiene el arreglo pero solo me muestra el primero
   constructor() { }
 

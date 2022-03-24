@@ -1,9 +1,10 @@
 
+
 .contenedor-header{
-    
+    background-color: #bdb76b;
     height: 80px;
-    margin-top: 1px;
-    margin-bottom: 1px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding: auto;
     border-top: blue 3px solid;
     border-bottom:blue 3px solid;
