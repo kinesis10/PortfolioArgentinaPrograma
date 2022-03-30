@@ -15,6 +15,10 @@ import { HardSkillComponent } from './componentes/hard-skill/hard-skill.componen
 import { Circulos2Component } from './componentes/circulos2/circulos2.component';
 import { HerramientasComponent } from './componentes/herramientas/herramientas.component';
 import { BotonAgregarComponent } from './componentes/boton-agregar/boton-agregar.component';
+import { PortfolioService } from './servicios/portfolio.service';
+import { HttpClientModule } from '@angular/common/http';
+import { FormularioComponent } from './componentes/formulario/formulario.component'
+
 
 
 @NgModule({
@@ -32,14 +36,17 @@ import { BotonAgregarComponent } from './componentes/boton-agregar/boton-agregar
       Circulos2Component,
       HerramientasComponent,
       BotonAgregarComponent,
+      FormularioComponent,
+      
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgCircleProgressModule.forRoot({}),
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [PortfolioService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

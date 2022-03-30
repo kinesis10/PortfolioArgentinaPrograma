@@ -12,7 +12,7 @@ export class BotonAgregarComponent implements OnInit {
 
   ngOnInit(): void {
   }
-onClick(){
+agregarClick(){
   this.btnClick.emit();
 }
 }

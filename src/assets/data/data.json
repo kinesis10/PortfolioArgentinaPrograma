@@ -1,0 +1,23 @@
+{
+    
+      "nombre": "Chesini Pablo Eugenio Sebastian",
+      "age": 39,
+      "imgFondo": "Dan Jukes",
+      "imgPerfil": "",
+      "arreglo": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ],
+    
+    
+      "estudios": "Ienieria en Sistemas de Informacion.",
+      "AnioCursado": 3,
+      "universidad": "UTN",
+      "MateriasAprobadas": [
+        "analisis 1",
+        "analisis 2",
+        "Algoritmos y estructura de datos"
+      ]
+    
+}
